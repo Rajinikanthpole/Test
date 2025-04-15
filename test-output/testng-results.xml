@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-26T12:06:27 IST" name="Default suite" finished-at="2024-11-26T12:06:56 IST" duration-ms="29407">
+  <suite started-at="2025-04-15T11:13:09 IST" name="Default suite" finished-at="2025-04-15T11:13:17 IST" duration-ms="8680">
     <groups>
     </groups>
-    <test started-at="2024-11-26T12:06:27 IST" name="Default test" finished-at="2024-11-26T12:06:56 IST" duration-ms="29407">
-      <class name="org.demos.Fitpeo">
-        <test-method is-config="true" signature="Browser_lanuch()[pri:0, instance:org.demos.Fitpeo@1fa121e2]" started-at="2024-11-26T12:06:27 IST" name="Browser_lanuch" finished-at="2024-11-26T12:06:37 IST" duration-ms="9917" status="PASS">
+    <test started-at="2025-04-15T11:13:09 IST" name="Default test" finished-at="2025-04-15T11:13:17 IST" duration-ms="8680">
+      <class name="org.demos.AdactinHotel">
+        <test-method is-config="true" signature="HotelLoginPage()[pri:0, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:09 IST" name="HotelLoginPage" finished-at="2025-04-15T11:13:13 IST" duration-ms="4128" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Browser_lanuch -->
-        <test-method signature="Re_Update_Text_Filed()[pri:0, instance:org.demos.Fitpeo@1fa121e2]" started-at="2024-11-26T12:06:37 IST" name="Re_Update_Text_Filed" finished-at="2024-11-26T12:06:39 IST" duration-ms="2497" status="PASS">
+        </test-method> <!-- HotelLoginPage -->
+        <test-method signature="AdctinTextVisble()[pri:1, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:13 IST" name="AdctinTextVisble" finished-at="2025-04-15T11:13:13 IST" duration-ms="218" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Re_Update_Text_Filed -->
-        <test-method signature="Select_CPT_Codes()[pri:0, instance:org.demos.Fitpeo@1fa121e2]" started-at="2024-11-26T12:06:39 IST" name="Select_CPT_Codes" finished-at="2024-11-26T12:06:40 IST" duration-ms="864" status="PASS">
+        </test-method> <!-- AdctinTextVisble -->
+        <test-method signature="Login_Userename_and_Password()[pri:2, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:13 IST" name="Login_Userename_and_Password" finished-at="2025-04-15T11:13:14 IST" duration-ms="1230" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Select_CPT_Codes -->
-        <test-method signature="Slider()[pri:0, instance:org.demos.Fitpeo@1fa121e2]" started-at="2024-11-26T12:06:40 IST" name="Slider" finished-at="2024-11-26T12:06:44 IST" duration-ms="4022" status="PASS">
+        </test-method> <!-- Login_Userename_and_Password -->
+        <test-method signature="Search_Hotel()[pri:3, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:14 IST" name="Search_Hotel" finished-at="2025-04-15T11:13:15 IST" duration-ms="282" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Slider -->
-        <test-method signature="Udate_text_filed()[pri:0, instance:org.demos.Fitpeo@1fa121e2]" started-at="2024-11-26T12:06:44 IST" name="Udate_text_filed" finished-at="2024-11-26T12:06:51 IST" duration-ms="6687" status="PASS">
+        </test-method> <!-- Search_Hotel -->
+        <test-method signature="Room_type()[pri:4, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:15 IST" name="Room_type" finished-at="2025-04-15T11:13:15 IST" duration-ms="103" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Udate_text_filed -->
-        <test-method signature="navigate_to_Revenue_Calculator()[pri:0, instance:org.demos.Fitpeo@1fa121e2]" started-at="2024-11-26T12:06:51 IST" name="navigate_to_Revenue_Calculator" finished-at="2024-11-26T12:06:51 IST" duration-ms="97" status="PASS">
+        </test-method> <!-- Room_type -->
+        <test-method signature="Number_of_Rooms()[pri:5, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:15 IST" name="Number_of_Rooms" finished-at="2025-04-15T11:13:15 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- navigate_to_Revenue_Calculator -->
-        <test-method is-config="true" signature="quits()[pri:0, instance:org.demos.Fitpeo@1fa121e2]" started-at="2024-11-26T12:06:51 IST" name="quits" finished-at="2024-11-26T12:06:56 IST" duration-ms="5239" status="PASS">
+        </test-method> <!-- Number_of_Rooms -->
+        <test-method signature="Check_In_and_Check_out_Date()[pri:6, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:15 IST" name="Check_In_and_Check_out_Date" finished-at="2025-04-15T11:13:15 IST" duration-ms="236" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- quits -->
-      </class> <!-- org.demos.Fitpeo -->
+        </test-method> <!-- Check_In_and_Check_out_Date -->
+        <test-method signature="Adults_and_Childrens()[pri:7, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:15 IST" name="Adults_and_Childrens" finished-at="2025-04-15T11:13:15 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Adults_and_Childrens -->
+        <test-method signature="Search()[pri:8, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:15 IST" name="Search" finished-at="2025-04-15T11:13:16 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="Search_hotel_and_Contiue()[pri:9, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:16 IST" name="Search_hotel_and_Contiue" finished-at="2025-04-15T11:13:17 IST" duration-ms="475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_hotel_and_Contiue -->
+        <test-method signature="Screenshot()[pri:10, instance:org.demos.AdactinHotel@36902638]" started-at="2025-04-15T11:13:17 IST" name="Screenshot" finished-at="2025-04-15T11:13:17 IST" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+      </class> <!-- org.demos.AdactinHotel -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

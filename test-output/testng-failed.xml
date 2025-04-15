@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.demos.Fitpeo">
+      <class name="org.demos.AdactinHotel">
         <methods>
-          <include name="Browser_lanuch"/>
-          <include name="Re_Update_Text_Filed"/>
+          <include name="Screenshot"/>
+          <include name="HotelLoginPage"/>
         </methods>
-      </class> <!-- org.demos.Fitpeo -->
+      </class> <!-- org.demos.AdactinHotel -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

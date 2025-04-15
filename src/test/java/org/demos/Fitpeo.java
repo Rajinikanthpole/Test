@@ -38,24 +38,19 @@ public class Fitpeo {
 	public void Slider() throws InterruptedException {
 
 		driver.findElement(By.linkText("Revenue Calculator")).click();
-		WebElement slider = driver
-				.findElement(By.xpath("//input[@data-index]"));
+		WebElement slider = driver.findElement(By.xpath("//input[@data-index]"));
 		Actions act = new Actions(driver);
 		act.dragAndDropBy(slider, 94, 0).release().perform();
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//input[@type='range']")).sendKeys(
-				Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT,
-				Keys.ARROW_LEFT);
+		driver.findElement(By.xpath("//input[@type='range']")).sendKeys(Keys.ARROW_LEFT, Keys.ARROW_LEFT, Keys.ARROW_LEFT,Keys.ARROW_LEFT);
 	}
 	@Test
 	public void Udate_text_filed() throws InterruptedException {
 		driver.findElement(By.partialLinkText("Revenue Calculator")).click();
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//input[@type='number']"))
-				.sendKeys(Keys.ENTER, Keys.CONTROL + "a", Keys.BACK_SPACE);
+		driver.findElement(By.xpath("//input[@type='number']")).sendKeys(Keys.ENTER, Keys.CONTROL + "a", Keys.BACK_SPACE);
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//input[@type='number']")).sendKeys("560",
-				Keys.ENTER);
+		driver.findElement(By.xpath("//input[@type='number']")).sendKeys("560",Keys.ENTER);
 
 	}
 

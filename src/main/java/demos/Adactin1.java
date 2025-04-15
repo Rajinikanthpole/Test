@@ -22,8 +22,8 @@ public class Adactin1 {
 		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3000));
 		driver.findElement(By.id("username")).sendKeys("Rajinikanth123",Keys.ENTER);
-		driver.findElement(By.name("password")).sendKeys("Rajin1996@",Keys.ENTER);
-		driver.findElement(By.linkText("Forgot Password?")).click();
+		driver.findElement(By.name("password")).sendKeys("ZJ45XJ",Keys.ENTER);
+		//driver.findElement(By.linkText("Forgot Password?")).click();
 		driver.findElement(By.xpath("//select[@id='location']")).sendKeys("sydney",Keys.ENTER);
 		driver.findElement(By.xpath("//select[@id='hotels']")).sendKeys("hotelcreek",Keys.ENTER);
 		driver.findElement(By.xpath("//select[@name='room_type']")).sendKeys("standard",Keys.ENTER);
@@ -41,7 +41,7 @@ public class Adactin1 {
 		driver.findElement(By.xpath("//input[@name='first_name']")).sendKeys("Rajinikanth",Keys.ENTER);
 		driver.findElement(By.xpath("//input[@name='last_name']")).sendKeys("Pole",Keys.ENTER);
 		driver.findElement(By.xpath("//textarea[@name='address']")).sendKeys("kukatpally,hyderabad",Keys.ENTER);
-		driver.findElement(By.xpath("//input[@id='cc_num']")).sendKeys("1111222244446666",Keys.ENTER);
+		driver.findElement(By.xpath(" //input[@id='cc_num']")).sendKeys("1111222244446666",Keys.ENTER);
 		driver.findElement(By.xpath("//select[@name='cc_type']")).sendKeys("visa",Keys.ENTER);
 		driver.findElement(By.xpath("//select[@name='cc_exp_month']")).sendKeys("may",Keys.ENTER);
 		driver.findElement(By.xpath("//select[@name='cc_exp_year']")).sendKeys("2021",Keys.ENTER);

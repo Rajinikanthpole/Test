@@ -13,8 +13,10 @@ public class Actitime {
 		driver.manage().window().maximize();
 		driver.get("https://www.actitime.com/");
 		driver.findElement(By.linkText("Log in")).click();
+		driver.manage().window().setSize(null);
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='Enter your email']")).sendKeys("pole.rajin1996@gmail.com",Keys.ENTER);
+		driver.navigate().back();
 
 	}
 
